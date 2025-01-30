@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yuji+Mai&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   padding: 20px;
+   position: sticky;
+    
+   
+    
+}
+
+.logo{
+    width:20%;
+}
+.logo img{
+  width: 100%;
+}
+
+.nav-links{
+    width:60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nav-icons{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-links a, .nav-icons a{
+    text-decoration: none;
+    color: rgb(32, 2, 2);
+    padding: 10px;
+    font-size: 22px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    transition: color 2s;
+}
+
+.nav-links a:hover{
+    color: rgb(255, 153, 0);
+} 
+.nav-icons a :hover{
+  color: rgb(255, 153, 0);
+}
+
+.product-sec{
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+.product-img{
+    width: 30%;
+    height: auto;
+   padding: 10px;
+
+}
+.product-img img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.product-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    font-size: 22px;
+   
+}
+.add-to-cart{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+    width:200px;
+    transition: all 0.3s;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.add-to-cart:hover{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.699);
+   
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgb(71, 67, 61);
+    border-radius:5px;
+    color: white;
+    font-family: "Roboto", serif;
+}
